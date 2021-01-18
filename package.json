@@ -1,0 +1,36 @@
+{
+  "name": "rev-amped",
+  "version": "0.0.1",
+  "description": "Improved and complete rewrite of rev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/rev-amped.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Timothy Claassens",
+    "email": "tim.claassens@gmail.com"
+  },
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@types/firmata": "^0.19.3",
+    "@types/node": "^14.0.27",
+    "@types/serialport": "^8.0.1",
+    "@types/websocket": "^1.0.1",
+    "@types/yargs": "^15.0.5",
+    "chalk": "^4.1.0",
+    "evt": "^1.8.6",
+    "firmata": "^2.2.0",
+    "moment": "^2.27.0",
+    "pg": "^8.3.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.2",
+    "serialport": "^9.0.1",
+    "tsyringe": "^4.3.0",
+    "typeorm": "^0.2.25",
+    "typescript": "^3.9.7",
+    "websocket": "^1.0.31",
+    "yargs": "^15.4.1"
+  }
+}
